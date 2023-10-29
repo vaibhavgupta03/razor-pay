@@ -1,0 +1,665 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin-left: 10vw;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02042b;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.logo img {
+    width: 12em;
+    height: auto;
+}
+.nav-btn{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    margin-right: 16vw;
+}
+.nav-btn img {
+    width: 2.5em;
+    height: auto;
+    cursor: pointer;
+}
+
+.login-btn {
+    background:none;
+    color: #fff;
+    padding: 0.5em 1.2em;
+    border-radius: 3px;
+    border: 1px solid #2b84ea;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.signup-btn {
+    background: #fff;
+    color: #2b84ea;
+    padding: 0.5em 1.1em;
+    border-radius: 3px;
+    border:#fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.hero {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #02042b;
+}
+
+.heroimg {
+    width: 45%;
+    margin-right:15%;
+}
+.heroimg img {
+    width: 100%;
+    height: auto;
+}
+
+.herotext {
+    width: 30%;
+    color: #fff;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.herotext h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.herotext p {
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #b4b4c0;
+}
+
+.hero-btn {
+    background: #2b84ea;
+    color: #fff;
+    padding: 0.8em 1em;
+    border-radius: 5px;
+    border:#fff;
+    width:10em;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+    color: #02042b;
+}
+
+.content {
+    width: 100%;
+    margin: 5vh;
+    padding: 20px;
+}
+
+.contenttext {
+    font-size: 1em;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contenttext hr {
+    width: 2%;
+    height: 6px;
+    border: 1px solid #61cea6;
+    background-color: #61cea6;
+    margin: auto;
+    margin-top: 20px;
+}
+.box-element {
+    width: 70%;
+    height: 65vh;
+    display: flex;
+    gap: 20px;
+    margin-top: 10vh;
+    margin-left: 15%;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+
+}
+.right-element {
+    padding:1px;
+    width: 54%;
+    height: 100%;
+    display: flex;
+}
+.left-element{
+    width: 46%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    margin: 30px 0px 10px 40px;
+}
+
+.left-element h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #02042b;
+}
+.left-element span{
+    color: #2b84ea;
+}
+.left-element ul {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #7b7b81;
+}
+
+.content-btn {
+    background: #2b84ea;
+    color: #fff;
+    padding: 0.8em 1em;
+    border-radius: 5px;
+    border:#fff;
+    width:10em;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.left1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 10px;
+}
+
+.left-1 a{
+    text-decoration: none;
+    color: #2b84ea;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+.element-box {
+    width: 70%;
+    margin-top: 10vh;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.box-up {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    
+}
+
+.box-down {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.box-1 {
+    width:33%;
+    border:1px solid #acacb1;
+    border-radius: 5px 80px 5px 5px;
+    padding: 15px;
+}
+
+.box-head {
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.box-para {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #7b7b81;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.box-1 a {
+    text-decoration: none;
+    color: #2b84ea;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.body-part {
+    background-image: url(https://razorpay.com/build/browser/static/x-dark-bg.0bc3bc00.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 220vh;
+    background-position: 27%;
+    padding: 10px;
+}
+
+.body-text {
+    width: 50%;
+    margin-left: 30%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 12vh;
+}
+
+.body-text h1 {
+    margin-top: 20vh;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+.body-text hr {
+    width: 4%;
+    height: 4px;
+    border: 1px solid #61cea6;
+    background-color: #61cea6;
+    margin: auto;
+}
+
+.body-element {
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    gap: 20px;
+    margin-top: 10vh;
+    margin-left: 15%;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+.body-right {
+    padding: 1px;
+    height: 100%;
+    width: 54%;
+    display: flex;
+    align-items: center;
+}
+
+.body-left{
+    width: 46%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    margin: 30px 0px 10px 40px;
+}
+
+.body-left h1 {
+    font-size: 1.3em;
+    font-weight: 800;
+    color: #fff;
+    display: inline-flex;
+}
+
+.body-left img {
+    width: 8em;
+    position: relative;
+    bottom: 11%;
+    left: 38%;
+}
+
+.body-left ul {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #7b7b81;
+    margin-top: -30px;
+}
+
+.box-down1 {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin-top: 10vh;
+}
+
+.rpay {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.rpay-up {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.rp-head{
+    font-size: 2.3em;
+    width: 29%;
+    font-weight: 800;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.rpay-up span {
+    color: #2b84ea;
+}
+
+
+.rpay-down {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.next-el {
+    background-image: url(https://razorpay.com/build/browser/static/features-bg.61935438.svg);
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 140vh;
+    padding: 10px;
+}
+
+.next-blog {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.next-head {
+    margin-top: 25vh;
+    width: 35%;
+    margin-left: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.next-head h1 {
+    font-size: 2.2em;
+    font-weight: 800;
+    color: #fff;
+}
+
+.next-head hr {
+    width: 6%;
+    height: 4px;
+    border: 1px solid #61cea6;
+    background-color: #61cea6;
+    margin: auto;
+}
+
+.next-head p {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.next-up {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin-top: 10vh;
+}
+
+.next-down {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin-top: 10vh;
+}
+
+.blog1 h1 {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.blog1 p {
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.list-com {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.list-el {
+    width: 100%;
+    height: 75vh;
+    background-color: #f5f8fe;
+    padding: 10px;
+}
+
+.leftcom {
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-right: 10px;
+}
+.rightcom {
+    width: 50%;
+    height: 71vh;
+}
+
+.leftcom h1 {
+    font-size: 1.3em;
+    font-weight: 800;
+    color: #02042b;
+    display: inline-flex;
+}
+
+.leftcom p {
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+.leftcom hr{
+    width: 5%;
+    height: 4px;
+    border: 1px solid #61cea6;
+    background-color: #61cea6;
+}
+
+.rightcom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.last-foot {
+    background-image: url(https://razorpay.com/build/browser/static/footer-head-bg.990e26df.svg);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    margin-top: 10vh;
+}
+
+.foot-el {
+    width: 60%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 18vh;
+}
+
+.last-foot img {
+    position: relative;
+    width: 16%;
+    left: 70%;
+    bottom: 65%;
+}
+
+.foot-el h1{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.foot-el hr {
+    width: 5%;
+    height: 4px;
+    border: 1px solid #61cea6;
+    background-color: #61cea6;
+}
+
+.foot-el p {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+.btn-foot {
+    background: #fff;
+    color: #2b84ea;
+    padding: 0.5em 1.1em;
+    border-radius: 3px;
+    border: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 10vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    gap: 30px;
+    background-color: #fff;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.row1, .row2, .row3, .row4 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.row1 img {
+    width: 8em;
+    height: auto;
+}
+
+.row1 p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.row1 span {
+    font-size: 0.6em;
+    line-height: 1.5em;
+    color: #2b84ea;
+}
+
+.footer h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #636b85;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #2b84ea;
+    font-size: 1em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.row4 p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+.row4 span {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    color: #2b84ea;
+}
