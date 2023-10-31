@@ -13,7 +13,7 @@ The project was created as part of an assignment for my web development course. 
 - CSS
 
 ## Demo:
-![Razorpay Clone Website](https://vaibhavgupta03.github.io/razor-pay/)
+<a href="https://vaibhavgupta03.github.io/razor-pay/">Demo of this Project</a>
 
 ## Installation:
 1. Clone the repo
